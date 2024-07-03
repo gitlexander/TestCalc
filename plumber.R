@@ -9,5 +9,8 @@ function(x, y, z){
   x <- as.numeric(x)
   y <- as.numeric(y)
   z <- as.numeric(z)  
-    list(all = x+y+z,some = x+y, some2 = z+y, some3 = x+z)
+all = x+y+z
+some = x+y
+some2 = z+y
+some3 = x+z
 }
