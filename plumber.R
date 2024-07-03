@@ -9,5 +9,5 @@ function(x, y, z){
   x <- as.numeric(x)
   y <- as.numeric(y)
   z <- as.numeric(z)  
-response = c(all = x+y+z,some = x+y,some2 = z+y,some3 = x+z)
+list(response = list(all = x+y+z,some = x+y,some2 = z+y,some3 = x+z))
 }
