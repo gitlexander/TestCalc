@@ -9,5 +9,5 @@ function(x, y, z){
   x <- as.numeric(x)
   y <- as.numeric(y)
   z <- as.numeric(z)  
-    x+y+z
+    list(x+y+z,x+y,z+y,x+z)
 }
