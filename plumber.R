@@ -1,4 +1,4 @@
-elibrary(plumber)
+library(plumber)
 
 #* get the sum of variables as defined by Bubble data
 #* @param x gender
