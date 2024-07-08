@@ -3,7 +3,7 @@ library(plumber)
 #* get the list of subtasks
 #* @get /subtasks
 function() {
-  ranked_subtask <- list(subtasks = c("I3", "M1", "I1", "G1", "A1", "R1", "G2", "B4", "A4", "T1", "T2", "D2", "A2", "A6", "H1", "D5", "D4", "G3", "R2", "D3", "B2", "C1", "C2", "P1", "A5", "B1", "B3", "D6"))
+  ranked_subtask = list(subtasks = c(I3, M1, I1, G1, A1, R1, G2, B4, A4, T1, T2, D2, A2, A6, H1, D5, D4, G3, R2, D3, B2, C1, C2, P1, A5, B1, B3, D6))
   return(ranked_subtask)
 }
 
