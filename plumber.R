@@ -39,3 +39,15 @@ function() {
   )
   return(res)
   }
+
+#* Get a sum of two scores from bubble
+#* param x first number
+#* param y second number
+#* @get /sum
+function(x,y){
+x <- as.numeric(x)
+y <- as.numeric(y)
+
+sum = x+y
+return (sum)
+}
